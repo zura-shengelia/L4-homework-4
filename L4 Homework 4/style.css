@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@700&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.perfume-card-container {
+    width: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -180px;
+}
+
+.card-img-box {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-img-box img {
+    width: 100%;
+    display: block;
+}
+
+.card-texst-box {
+    width: 50%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-text-area {
+    height: 245px;
+}
+
+.text-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+}
+
+.text-2 {
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.text-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.parfum-price {
+    margin-bottom: 20px;
+}
+
+.sale-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 25px;
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.del-price {
+    color: hsl(228, 12%, 48%);
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+    font-size: 11px;
+    vertical-align: middle;
+    
+}
+
+.add-to-cart button {
+    background-color:hsl(158, 36%, 37%);
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    border: none;
+}
+
+.add-to-cart img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.add-to-cart span {
+    display: inline-block;
+    vertical-align: middle;
+}
